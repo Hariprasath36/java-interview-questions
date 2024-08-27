@@ -96,4 +96,39 @@ Compile time polymorphism 1)method overloading
 Runtime polymorphism 1)method overriding
 
 19)Difference between overloading and overriding
+multiple methods with same name are in same class || multiple methods with same name are in different class
+
+Methods have the same name but different parameter lists || methods have the same name and same parameter list
+
+compile-time polymorphism || Runtime polymorphism
+
+No annotation or special keyword is required || @Overide annotation is used  over method of child class to specify that it's overriding a superclass method
+
+Constructor can also be overloaded || Constructor cannot be overloaded
+
+OOPS - ENCASPSULATION AND ABSTRACTION
+
+20)what is encapsulation?
+is a bundling of data and methods in a single unit
+
+21)How to achieve encapsulation in java
+encapsulation can be achieved by using access modifier(private) and getter an dsetter methods
+
+22)What is abstraction? how to implement?
+it is a process of hiding the implementation details from the user
+mostly we use abstract class and interface for implementing abstraction
+
+23)Difference between abstract class and interface
+cannot be instantiated directly with new keyword its for both 
+
+defined by using interface keyword || defined by using abstract keyword
+
+supportsmultiple inheritance || support single inheritance
+
+methods are implicitly abstract || use abstract keyword to make methods abstract
+
+cannot have constructors || can have constructors
+
+can have default methods || cannot have default methods
+
 
