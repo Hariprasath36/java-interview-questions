@@ -1,0 +1,42 @@
+1)JRE
+java runtime environment byte code to machine lang
+jdk(java development kit) it contains javac(compiler)
+jvm(java virtual machine) byte code to machine lang
+jre(java runtime environment)it contains libraries
+
+2)public = main method can be accessed outside the class
+static = we can invoke the main method without creating the object 
+void = we cannot runturn a value
+main = it is the entry point of the java program
+
+3) what is java 
+java is a high level programing lang
+it is object oriented programing lang(object,class,inheritance,abstraction,encapsulation,polymorphism)
+
+4)main features and advantage of java
+platform independent
+object-oriented
+robust (automatic memory management) and secure
+multi-threading
+rich standard library
+
+5)wht is java byte code
+0,1
+
+6)variables and data types &types
+variables are used to store data (values)
+data types define the type of variables
+
+7)diff between primitive and non primitive (reference type)
+primitive data type store actual value (stack) in memory || reference data type store reference (heap) of the values
+
+primitive data types mostly hold single values || reference data type can hold multiple values
+
+primitive data types have fixed storage || reference data type can have variable storage
+
+primitive data types are stored on the stack memory || reference data type are stored on the heap memory
+
+CONTROL STATEMENTS STRINGS AND ARRAYS
+
+8)control statements in java
+if
