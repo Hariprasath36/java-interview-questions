@@ -39,4 +39,11 @@ primitive data types are stored on the stack memory || reference data type are s
 CONTROL STATEMENTS STRINGS AND ARRAYS
 
 8)control statements in java
-if
+conditional statements : if-else,switch,ternary
+looping statements : for,while,do-while,for each
+branching statements : break,continue,return
+
+9) when to use which type of control statements in real time
+if-else =complex,multiple condition
+ternary operator= condition?result1:result2; good for simple condition
+switch=switch is best for same left values
