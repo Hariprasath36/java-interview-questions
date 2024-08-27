@@ -47,3 +47,30 @@ branching statements : break,continue,return
 if-else =complex,multiple condition
 ternary operator= condition?result1:result2; good for simple condition
 switch=switch is best for same left values
+
+10)what is StringBuilder?
+it is mutable but string is immutable
+
+10)What is array?
+array is a data type that allows you to store multiple values in a single variable
+
+array are used to store related data in a structured way
+
+CLASSES,OBJECTS,ACCESS SPECIFIRES
+
+11) what is oops?what are the main concepts of oops?
+stands for object oriented programming ,it is a way to create software around objects.
+oops provide a clear structure for the software's and web application
+
+12)Access specifiers
+public 
+private
+protected
+default
+
+13)this keyword?
+this keyword refers to the current instance of the class
+it differentiate beween instance variable and parameter withe same name in setter method 
+
+14)Getter and setter methods?
+getter method is used to get the value of instance variable
