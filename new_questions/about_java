@@ -73,4 +73,27 @@ this keyword refers to the current instance of the class
 it differentiate beween instance variable and parameter withe same name in setter method 
 
 14)Getter and setter methods?
-getter method is used to get the value of instance variable
+getter methods are used to rettrive the values of private fiels of a class
+setter method is used to modify or set the value of a priavte fiels of a class
+
+OOPS- INHERITANCE AND POLYMORPHISM
+
+15) what is inheritance and when to use inheritance in real applications?
+inheritance is creating a parent-child relationship between two classes,where child class will automatically get the properties and methods of the parent
+1)code reusability:multiple subclass can reuse fields and methods from a superclass
+
+16)Types of inheritance?
+Single inheritance
+Multilevel inheritance
+Hierarchical inheritance
+Hybrid inheritance
+
+17)What is the alternative of multiple inheritance in java?
+java supports multiple inheritance by using interfaces.So multiple interfaces and maximum one parent calss can be inherited
+
+18)Types of polymorphism?
+Compile time polymorphism 1)method overloading 
+Runtime polymorphism 1)method overriding
+
+19)Difference between overloading and overriding
+
