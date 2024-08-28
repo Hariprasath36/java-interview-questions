@@ -1,0 +1,3 @@
+getBean is for creating object and it is a interface
+@Component means im responsible for creating class
+@Autowired automatically inject the dependency
