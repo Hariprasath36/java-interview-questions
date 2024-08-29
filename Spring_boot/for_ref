@@ -2,3 +2,4 @@ getBean is for creating object and it is a interface
 @Component means im responsible for creating class
 @Autowired automatically inject the dependency
 @Scope("prototype") it allows us to create diffrent object for diffrent request
+Repository is used  for connecting the database;
