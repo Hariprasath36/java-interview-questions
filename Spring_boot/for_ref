@@ -2,6 +2,13 @@ getBean is for creating object and it is a interface
 @Component means im responsible for creating class
 @Autowired automatically inject the dependency
 @Scope("prototype") it allows us to create diffrent object for diffrent request
+@controller it says to spring that it is a controller
+@RequestMapping used to set a path
+@RequestPram used to get data from request
+@GetMapping  used to retrive information from the server
+@PostMapping  used to send data to the server to create/update a resource
+
+
 Repository is used  for connecting the database;
 MVC => model view controller
 
@@ -9,3 +16,9 @@ model -holds the data (POJO)
 controller - handles accept the request and sends the responsible (before mvc servelet for this )
 * one controller can have multiple request but servelet have one request for only one server
 view - displays the data (before JPA for view )
+
+ORM -Object Relational Mapping
+to implement ORM we need to use JPA (Java Persistence API)
+Spring applicaton --->hibernate(to connect with database)--->Database(SQL,MySQL...etc) and ORM to connect with database
+
+to connect with database we have two methods 1)JDBC 2)Hibernate
