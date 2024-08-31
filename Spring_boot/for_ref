@@ -3,3 +3,9 @@ getBean is for creating object and it is a interface
 @Autowired automatically inject the dependency
 @Scope("prototype") it allows us to create diffrent object for diffrent request
 Repository is used  for connecting the database;
+MVC => model view controller
+
+model -holds the data (POJO)
+controller - handles accept the request and sends the responsible (before mvc servelet for this )
+* one controller can have multiple request but servelet have one request for only one server
+view - displays the data (before JPA for view )
