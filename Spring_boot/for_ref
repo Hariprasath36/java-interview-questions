@@ -7,7 +7,7 @@ getBean is for creating object and it is a interface
 @RequestPram used to get data from request
 @GetMapping  used to retrive information from the server
 @PostMapping  used to send data to the server to create/update a resource
-
+@Query it is used for assiging query in repo
 
 Repository is used  for connecting the database;
 MVC => model view controller
@@ -22,3 +22,6 @@ to implement ORM we need to use JPA (Java Persistence API)
 Spring applicaton --->hibernate(to connect with database)--->Database(SQL,MySQL...etc) and ORM to connect with database
 
 to connect with database we have two methods 1)JDBC 2)Hibernate
+
+REST -REpresentational State Transfer
+it use HTTP methods(GET,POST,PUT,DELETE)
