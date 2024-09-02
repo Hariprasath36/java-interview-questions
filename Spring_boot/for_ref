@@ -8,6 +8,11 @@ getBean is for creating object and it is a interface
 @GetMapping  used to retrive information from the server
 @PostMapping  used to send data to the server to create/update a resource
 @Query it is used for assiging query in repo
+@ResponseBody used to send actual data not jpa file
+@PathVariable used to get data from url
+
+
+
 
 Repository is used  for connecting the database;
 MVC => model view controller
