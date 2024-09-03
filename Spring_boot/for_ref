@@ -42,6 +42,17 @@ concept of AOP
 7)AOP proxy
 8)Weaving
 
+Types of advice:
+Before
+After --after returning,after throwing,Default after(finally)
+Around
+
+Spring Security
+
+Authentication means Who are you ?
+Authorization means your role like user and admin
+
+
 
 
 
