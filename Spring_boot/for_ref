@@ -30,3 +30,18 @@ to connect with database we have two methods 1)JDBC 2)Hibernate
 
 REST -REpresentational State Transfer
 it use HTTP methods(GET,POST,PUT,DELETE)
+
+AOP - Aspect Oriented Programming 
+concept of AOP
+1)Aspect -one class have all the methods 
+2)Advice - method can be before or after
+3)Pointcut -
+4)Joinpoint -
+5)Introduction - 
+6)Target object
+7)AOP proxy
+8)Weaving
+
+
+
+
