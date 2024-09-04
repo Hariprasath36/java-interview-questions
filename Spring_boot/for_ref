@@ -75,4 +75,56 @@ Scalability
 MICROSERVICES
 in microservices if you have 10 service  each service is a microservice and each services is self contained they should be deployed in separately and they should be scale separately
 
+In microservice we can create each service in any techonology we want for eg-java,python,go,scala
+advantage is if one of the service goes down it will not affect other service
+
+What is microservice?
+They are individual services which are self-contained they can run as a individual service
+
+How is service will communicate?
+in spring they can communicate through http using RESTful API's
+
+CLOUD COMPUTING ?
+cloud means group of computers on a network
+
+on-permises
+Iaas  Infrastructure-as-a-service
+Caas  Container-as-a-service
+Paas  Platform-as-a-service
+FaaS  Function-as-a-service
+Saas  Software-as-a-service
+
+we use private cloud to maintain the personal data and its in our control but drawbacks cost
+
+BLUE GREEN DEPLOYMENT
+it means two running instace at a same time
+one is blue and another is green
+
+but one point one innstance will be live for public 
+As a developer we need to push a new update but we cannot do it in live server we will update in green server then we move the users to  updated green server but we not  move all the users to green server because it may cause some problems 
+
+once all the users are moved to green server it will be live for public and bule server will be idle and it can act as a recovery server
+
+CLOUD NATIVE AND 12 FACTOR APP
+
+CLOUD READY VS CLOUD NATIVE
+
+Cloud ready means we already have a server and we make some configuration that cloud need to be ready
+
+Cloud native means a new cloud service
+
+IF WE NEED TO BUILD A CLOUD YOU NEED TO FOLLOW A 12 FACTOR APP (12 RULES)
+Codebase - one codebase tracked in revision control,many depolys
+Dependencies - Explicitily declare and isolate dependencies
+config - Store config in the environment
+Banking services - Treat backing service as attached resources
+Build, release,run - Strictly seprate build and run stages
+Process - Execute the app as one or more stateless processe
+Port Binding - Export services via port binding
+Concurrency - Scale out via the process model
+Disposability - Maximize robustries with fast startup and graceful shutdown
+Dev/prod parity - keep development ,staging and production as similar as possible
+Logs - treat logs event streams
+Admin processes - run admin/management tasls as one-off processes.
+
 
