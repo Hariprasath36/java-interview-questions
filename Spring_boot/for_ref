@@ -52,7 +52,27 @@ Spring Security
 Authentication means Who are you ?
 Authorization means your role like user and admin
 
+Bcrypt
 
+HttpSecurity used for form login
 
+security oAuth2  is an authorization protocol that allows applications to access user data on a web server without the user sharing their credentials. It's the industry standard for online authorization and is used by APIs from GitHub
+
+oAuth2 is a google login
+
+MICROSERVICES
+
+monolithic application 
+advantage -
+-lot of services in one application
+everything in one place all services they are designed by other members you can simply call them
+and you can form a particular package and deploy them
+
+disadvantage -
+team dependency
+Scalability
+
+MICROSERVICES
+in microservices if you have 10 service  each service is a microservice and each services is self contained they should be deployed in separately and they should be scale separately
 
 
