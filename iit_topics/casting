@@ -1,0 +1,16 @@
+three types 
+*)implicit converting smaller datatype(int) into larger datatype(double) 
+byte>short>int>long>float>double
+char>int
+we use = to change the type like int a=10;doubule b=a;
+
+*)explicit converting larger datatype(double) into smaller datatype(int)
+we use parathesis to cange 
+eg:double a=10.1;int b=(int)a;
+
+*)object-oriented when dealing with inheritance or interfaces, you may see downcasting or upcasting:
+   1)upcasting -When you assign a subclass object to a superclass reference, it’s automatic.
+   Animal animal = new Dog();  // Upcasting: Dog to Animal (implicit)
+
+   2)downcasting -When you cast a superclass reference to a subclass, you need explicit casting.
+   Dog dog = (Dog) animal;  // Downcasting: Animal to Dog (explicit)
