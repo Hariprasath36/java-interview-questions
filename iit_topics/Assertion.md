@@ -79,4 +79,7 @@ Enabling and Disabling Assertions
   To disable assertions:
 
       java -da MyProgram
+ 
+  To enable System assertion :
 
+      -esa: Stands for "enable system assertions."
