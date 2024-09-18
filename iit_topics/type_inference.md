@@ -23,4 +23,4 @@ Type safety: Type inference does not compromise type safety. The compiler still 
 
 Limitations of Type Inference
 Local scope only (var): Inference with var is limited to local variables, and it cannot be used for method parameters, return types, or class fields.
-Ambiguity: In some cases, excessive use of var can make the code harder to understand since the type is not explicitly declared.
+Ambiguity: In some cases, excessive use of var can make the code harder to understand since the type is not explicitly declared.   
