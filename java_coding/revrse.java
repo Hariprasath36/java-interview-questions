@@ -1,5 +1,7 @@
+
+import java.io.*; 
 import java.util.Scanner;
-public class Revrse {
+public class revrse {
 	public static void main(String args[]) {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter the String:");
