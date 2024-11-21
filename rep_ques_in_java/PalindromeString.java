@@ -1,7 +1,7 @@
 public class PalindromeString {
 
     public static void main(String[] args) {
-        String str = "madam"; // The string to check
+        String str = "LoL"; // The string to check
         String reversedStr = ""; // This will store the reversed string
         
         // Reverse the string

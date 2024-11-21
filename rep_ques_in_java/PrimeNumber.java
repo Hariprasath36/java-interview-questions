@@ -1,7 +1,7 @@
 public class PrimeNumber {
 
     public static void main(String[] args) {
-        int num = 2; // Number to check
+        int num = 90; // Number to check
         boolean isPrime = true; // Assume number is prime initially
 
         // Handle numbers <= 1 (not prime)
