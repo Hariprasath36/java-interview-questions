@@ -139,7 +139,7 @@ Hierarchical inheritance
 Hybrid inheritance
 
 17)What is the alternative of multiple inheritance in java?
-java supports multiple inheritance by using interfaces.So multiple interfaces and maximum one parent calss can be inherited
+java supports multiple inheritance by using interfaces.So multiple interfaces and maximum one parent class can be inherited
 
 18)Types of polymorphism?
 Compile time polymorphism 1)method overloading 
