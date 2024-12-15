@@ -120,7 +120,7 @@ default
 
 13)this keyword?
 this keyword refers to the current instance of the class
-it differentiate beween instance variable and parameter withe same name in setter method 
+it differentiate between instance variable and parameter withe same name in setter method 
 
 14)Getter and setter methods?
 getter methods are used to rettrive the values of private fiels of a class
