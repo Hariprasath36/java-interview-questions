@@ -1,12 +1,27 @@
 1)JRE
-java runtime environment byte code to machine lang
+JRE (Java Runtime Environment) is a software package that provides the libraries, Java Virtual Machine (JVM), and other components necessary to run Java applications. It is part of the Java software platform developed by Oracle Corporation.
+
+
 jdk(java development kit) it contains javac(compiler)
+
+JDK (Java Development Kit) is a software development kit (SDK) used to develop Java applications. It provides tools, libraries, and components needed for compiling, debugging, and running Java programs. 
+The JDK is essential for developers working with Java.
+
+Key Components of JDK:
+Java Compiler (javac): Converts Java source code into bytecode that can be executed by the Java Virtual Machine (JVM).
+
 jvm(java virtual machine) byte code to machine lang
-jre(java runtime environment)it contains libraries
+
+Key Functions of JVM:
+Bytecode Execution: JVM reads and interprets compiled Java bytecode (.class files) and executes it.
+Platform Independence: Converts bytecode into machine-specific instructions, enabling Java's "Write Once, Run Anywhere" (WORA) capability.
+
+
+
 
 2)public = main method can be accessed outside the class
 static = we can invoke the main method without creating the object 
-void = we cannot runturn a value
+void = we cannot return a value
 main = it is the entry point of the java program
 
 3) what is java 
