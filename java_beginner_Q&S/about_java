@@ -12,9 +12,44 @@ Java Compiler (javac): Converts Java source code into bytecode that can be execu
 
 jvm(java virtual machine) byte code to machine lang
 
+JVM (Java Virtual Machine) is the core component of the Java Runtime Environment (JRE) and is responsible for executing Java bytecode. It is an abstract computing machine that enables Java's platform independence by providing an environment where Java programs can run regardless of the underlying hardware or operating system.
+
 Key Functions of JVM:
 Bytecode Execution: JVM reads and interprets compiled Java bytecode (.class files) and executes it.
 Platform Independence: Converts bytecode into machine-specific instructions, enabling Java's "Write Once, Run Anywhere" (WORA) capability.
+
+Threading and Multithreading 
+
+in Java are concepts related to the concurrent execution of code. They enable programs to perform multiple tasks simultaneously, improving efficiency and responsiveness.
+
+Creating Threads in Java
+There are two main ways to create threads in Java:
+
+By Extending the Thread Class:
+
+java
+Copy code
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        t1.start(); // Starts the thread
+    }
+}
+The run() method contains the code to be executed by the thread.
+The start() method starts the thread and calls the run() method.
+
+What is Multithreading?
+Multithreading is the ability of a CPU or a single program to execute multiple threads concurrently. It enables a program to:
+
+Perform multiple tasks simultaneously.
+Utilize CPU more efficiently by keeping threads active even if one thread is waiting (e.g., for I/O).
+
 
 
 
