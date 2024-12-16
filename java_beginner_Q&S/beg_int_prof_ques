@@ -144,7 +144,7 @@ java database connector
 41)various directives in jsp
 include
 page
-taglib
+
 
 42)Session management
 it is a dynamic state of random conversation between the client and the server
