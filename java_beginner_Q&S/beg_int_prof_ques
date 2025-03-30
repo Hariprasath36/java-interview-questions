@@ -149,20 +149,6 @@ page
 42)Session management
 it is a dynamic state of random conversation between the client and the server
 
-43)spring framework
-Spring is essentialli defined as an application framework and inversion of control container for java.the chief purpose of the spring framework is to create enterprise applications in java
 
-44)jca
-java cryptography architecture, used to encrypt and decrypt
-
-45)jpa
-java persistance api
-used to create  the persistence layer for desktop and web applicatin
-
-46)diff authentications in java servlets
-baseic authenticate
-form-based
-digest authentication
-client certificate authentication
 
 
